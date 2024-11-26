@@ -15,27 +15,47 @@
             </div>
         </div>
         <div class="form_holder">
-            <p class="hero">This is a form. But what is a form? Hmm...it's a form. Thing that you fill-up to sign-up. We use this to willingly give our personal data to the websites so that they can sell it to the data brokers. Then they sell this data and feed their family</p>
+            <p class="hero">This is a form. But what is a form? Hmm...it's a form. Thing that you fill-up to sign-up.</p>
             <p class="hero">Now please give me your data 🥺</p>
             <form>
-                <p>Let's do this</p>
-                <label for="first_name">First Name:</label>
-                <input type="text" name="first_name" id="first_name">
-                <label for="first_name">Last Name:</label>
-                <input type="text" name="last_name" id="last_name">
-
-                <label for="email">Email:</label>
-                <input type="email" name="email" id="email">
-                <label for="phone">Phone Number:</label>
-                <input type="tel" name="phone" id="phone">
-
-                <label for="password">Password:</label>
-                <input type="password" name="password" id="password">
-                <label for="confirm_pass">Confirm Password:</label>
-                <input type="password" name="confirm_pass" id="confirm_pass">
+                <div class="main">
+                    <p style="font-family: 'Segoe UI', sans-serif;">Let's do this</p>
+                    <div class="line">
+                        <div>
+                            <div><label for="first_name">First Name:</label></div>  
+                            <input type="text" name="first_name" id="first_name">
+                        </div>
+                        <div>
+                            <div><label for="first_name">Last Name:</label></div>
+                            <input type="text" name="last_name" id="last_name">
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div>
+                            <div><label for="email">Email:</label></div>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <div>
+                            <div><label for="phone">Phone Number:</label></div>
+                            <input type="tel" name="phone" id="phone">
+                        </div>
+                    </div>
+                    <div class="line">
+                        <div>
+                            <div><label for="password">Password:</label></div>
+                            <input type="password" name="password" id="password"
+                            minlength="8" placeholder="Enter at least 8 character">
+                        </div>
+                        <div>
+                            <div><label for="confirm_pass">Confirm Password:</label></div>
+                            <input type="password" name="confirm_pass" id="confirm_pass"
+                            minlength="8" placeholder="Re-enter your password">
+                        </div>
+                    </div>
+                </div>
 
                 <button type="submit">Create Account</button>
-
+                <div>Already have an account? <a href="#">Log in</a></div>
             </form>
         </div>
     </div>
